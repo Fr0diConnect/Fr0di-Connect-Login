@@ -1,60 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fr0di-Connect Landing Page
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fr0di-Connect Landing Page</title>
 
-    </title>
-</head>
-
-<style>
-    body {
-        background-color: black;
-        color: white;
-        text-align: center;
-    }
-     .nav{
-        border: 2px solid white;
-        width: 400px;
-        margin: 30px auto;
-        padding: 20px;
-        border-radius: 10px;
-    }
-    
-    .button:hover {
-        border-radius: 35px;
-    }
-     .footer {
-            background-color: #0f172a;
-            color: #94a3b8;
-            text-align: center;
-            padding: 15px;
-            font-size: 14px;
-            margin-top: 250px;
-        }
-
-</style>
-
+<link rel="stylesheet" href="style.css">
+</head> <body>
 <header>
-    <img clas src="Logo for Fr0di Connect.png" class="Logo>" width="120">
+    <img src="Logo for Fr0di Connect.png"
+         class="logo"
+         width="120"
+         alt="Fr0di-Connect Logo">
 </header>
-<body>
-   
-   <form class="nav"> <h1>Welcome To Fr0di-Connect</h1> 
-    
-    <label>Username</label> 
-    <br>
-     <input type="text" placeholder="Enter username"> 
-     <br><br> <label>Password</label>
-    <br> <input type="password" placeholder="Enter password"> 
-    <br><br> 
-    <button type="submit" class="button">Log In</button> 
-    <a href="index.html"> 
-        <button type="button">Guest</button> </a> 
+
+<main>
+    <form class="nav">
+        <h1>Welcome To Fr0di-Connect</h1>
+
+        <label for="username">Username</label>
+        <br>
+
+        <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Enter username"
+        >
+
+        <br><br>
+
+        <label for="password">Password</label>
+        <br>
+
+        <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter password"
+        >
+
+        <br><br>
+
+        <button type="submit" class="button">
+            Log In
+        </button>
+
+        <a href="index.html" class="guest-button">
+            Guest
+        </a>
     </form>
-</body>
-   <footer class="footer">
-        @Copyright Fr0di-Connect 2026-2028 Created By. Francis Lukoki
-    </footer>
+</main>
+
+<footer class="footer">
+    Fr0di-Connect &copy; 2026-2028 Created By Francis Lukoki
+</footer>
+</body> 
 </html>
